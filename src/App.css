@@ -1,0 +1,51 @@
+h1 {
+  width: 100vw;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+
+}
+
+/* Estilo para o menu de navegação */
+.menu_nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  width: 100vw;
+}
+
+.btn_menu {
+  background-color: #ff6f61;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn_menu:hover {
+  background-color: #ff4a39;
+  transform: scale(1.05);
+}
+
+.btn_menu:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 111, 97, 0.7);
+}
+
+/* Estilo para o container dos cards */
+.menu_card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
